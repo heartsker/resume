@@ -80,7 +80,7 @@ Motivated and passionate iOS developer with experience in QA-Engineering and aut
 
     [***Tinkoff***](https://www.tinkoff.ru)
     
-    *Feb 2022 - May 2022*
+    *February 2022 - May 2022*
 
     - Fixing critical issues and vulnerabilities
     - Implementing new features for Mobile Bank
