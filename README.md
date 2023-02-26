@@ -15,4 +15,4 @@ Simply fork the repository and edit away
 
 ### License
 
-[MIT License](https://github.com/heartsker/resume/blob/LICENSE)
+[MIT License](https://github.com/heartsker/resume/blob/main/LICENSE)
