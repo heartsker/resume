@@ -3,7 +3,6 @@ url: "https://github.com/heartsker"
 baseurl: "/resume"
 
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
 
 tracking_id: 355398828
 remote_theme: heartsker/resume@gem
