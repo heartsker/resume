@@ -15,4 +15,4 @@ Simply fork the repository and edit away
 
 ### License
 
-[GNU GPL v3](https://github.com/heartsker/resume/blob/gh-pages/LICENSE)
+[MIT License](https://github.com/heartsker/resume/blob/gh-pages/LICENSE)
