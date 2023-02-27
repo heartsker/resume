@@ -22,7 +22,7 @@ Motivated and passionate iOS developer with experience in QA-Engineering and aut
 
 ---
 
-## Skills
+## 💪 Skills
 ### Stack
 - Git
 - Smart SVC
