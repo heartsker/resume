@@ -12,7 +12,7 @@ Motivated and passionate iOS developer with experience in QA-Engineering and aut
 
 [🐙 My GitHub](https://github.com/heartsker)
 
-<img src="https://visitor-badge.glitch.me/badge?page_id=heartsker.resume&left_color=black&right_color=purple" width=100 height=40>
+<img src="https://visitor-badge.glitch.me/badge?page_id=heartsker.resume&left_color=black&right_color=purple" width=80 height=20 align="left">
 
 ---
 
