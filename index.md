@@ -11,6 +11,7 @@ Hi! My name is **Daniel Pustotin**. I am _iOS Developer_
 Motivated and passionate iOS developer with experience in QA-Engineering and automatic testing. Skilled in UIKit, SwiftUI, Reactive programming, and network and data storage frameworks. Strong problem-solving and leadership abilities, with a goal of creating innovative and revolutionary products
 
 [🐙 My GitHub](https://github.com/heartsker)
+![](https://visitor-badge.glitch.me/badge?page_id=heartsker.resume&left_color=pink&right_color=black)
 
 ---
 
