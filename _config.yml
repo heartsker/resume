@@ -4,7 +4,7 @@ baseurl: "/resume"
 
 markdown: kramdown
 
-tracking_id: 355398828
+tracking_id: G-9ZJ9RMZZFY
 remote_theme: heartsker/resume@gem
 
 footer: yes
