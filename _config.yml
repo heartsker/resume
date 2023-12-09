@@ -9,16 +9,16 @@ remote_theme: heartsker/resume@gem
 
 footer: yes
 footer_url: "https://github.com/heartsker"
-footer_text: "Maintained by Daniel Pustotin. Updated 26.02.2023"
+footer_text: "Обновлено 17.12.2023"
 
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
- - name: "About"
+ - name: "Обо мне"
    link: "/resume/"
- - name: "Resume"
+ - name: "Резюме"
    link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+ - name: "Контакты"
+   link: "contacts"
