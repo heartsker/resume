@@ -18,7 +18,7 @@ sass:
 nav:
  - name: "Обо мне"
    link: "/resume/"
- - name: "Резюме"
+ - name: "PDF"
    link: "resume.pdf"
  - name: "Контакты"
    link: "contacts"
