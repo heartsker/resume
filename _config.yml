@@ -19,6 +19,6 @@ nav:
  - name: "Обо мне"
    link: "/resume/"
  - name: "PDF"
-   link: "resume.pdf"
+   link: "resume_ru.pdf"
  - name: "Контакты"
    link: "contacts"
