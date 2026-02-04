@@ -83,44 +83,41 @@
 \newcommand{\tframed}[2][]{\tikz[baseline=(h.base)]\node[rndblock,#1] (h) {\color{black}{#2}};}
 
 \newcommand*{\mystrut}{\rule[-0.2\baselineskip]{0pt}{0.8\baselineskip}}
-\newcommand{\skill}[1]{\tframed[lightgray]{\mystrut#1}}
 
 
 \newcommand{\resumeSubheading}[4]{
   \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \vspace{-12pt}\textbf{#3} & \textcolor{mygray}{\textit{\small #2}} \\
-      \textit{\small#1} & \textcolor{mygray}{\textit{\small #4}} \\
-    \end{tabular*}\vspace{-5pt}
+  \parbox[t]{0.97\textwidth}{
+    \textbf{#3} \hfill \textcolor{mygray}{\textit{\small #2}} \\
+    \textit{\small#1} \hfill \textcolor{mygray}{\textit{\small #4}}
+  }\vspace{-5pt}
 }
 
-\newcommand{\resumeExpSubheading}[5]{
-  \vspace{3pt}
-  \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \vspace{2pt} \textbf{#1}  & \textcolor{mygray}{\small #2} \\
-      \textit{#3} & \textcolor{mygray}{\textit{\small #4}} \\
-      {\scriptsize#5}
-    \end{tabular*}\vspace{3pt}
+\newcommand{\resumeExpSubheading}[4]{
+  \item[]\hspace*{-\labelwidth}\hspace*{-\labelsep}\textbullet\hspace{0.6em}%
+  \parbox[t]{0.93\textwidth}{
+    \textbf{#1} \hfill \textcolor{mygray}{\small #2} \\
+    \textit{#3} \hfill \textcolor{mygray}{\textit{\small #4}}
+  }\vspace{3pt}
 }
 
 \newcommand{\resumeExpJointSubheading}[5]{
   \vspace{-14pt}
-  \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \vspace{2pt} \textbf{#1}  & \textcolor{mygray}{\small #2} \\
-      \textit{#3} & \textcolor{mygray}{\textit{\small #4}} \\
-      {\scriptsize#5}
-    \end{tabular*}\vspace{3pt}
+  \item[]\hspace*{-\labelwidth}\hspace*{-\labelsep}\textbullet\hspace{0.6em}%
+  \parbox[t]{0.93\textwidth}{
+    \textbf{#1} \hfill \textcolor{mygray}{\small #2} \\
+    \textit{#3} \hfill \textcolor{mygray}{\textit{\small #4}} \\
+    {\scriptsize#5}
+  }\vspace{3pt}
 }
 
 \newcommand{\resumeProjSubheading}[5]{
   \vspace{-10pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \vspace{2pt} \textbf{#1}  & \textcolor{mygray}{\small #2} \\
-      \textbf{#3} & \textcolor{mygray}{\textit{\small #4}} \\
-      {\scriptsize#5}
-    \end{tabular*}\vspace{3pt}
+  \parbox[t]{0.97\textwidth}{
+    \textbf{#1} \hfill \textcolor{mygray}{\small #2} \\
+    \textbf{#3} \hfill \textcolor{mygray}{\textit{\small #4}} \\
+    {\scriptsize#5}
+  }\vspace{3pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -177,12 +174,10 @@ GitHub: \MYhref{https://github.com/heartsker}{heartsker}
 %-----------RESUME-----------------
 \vspace{-10pt}
 \section{Резюме}
-\resumeSubHeadingListStart
-\item[]\justifying
+\justifying
 iOS Team Lead с опытом 6+ лет\\
-Руковожу кросс-функциональной командой 13 человек и выстраиваю процессы: планирование, оценка, ретро, поток от дизайна и документации до разработки\\
-Веду техническую экспертизу по iOS и архитектуре, отвечаю за стабильность и наблюдаемость
-\resumeSubHeadingListEnd
+Руковожу кросс-функциональной командой из 13 человек и выстраиваю процессы: планирование, оценка, ретро, поток от дизайна и документации до разработки\\
+Фокус на технической экспертизе по iOS и архитектуре, стабильности и наблюдаемости
 
 %-----------EXPERIENCE-----------------
 
@@ -193,25 +188,22 @@ iOS Team Lead с опытом 6+ лет\\
 
 % Alfabank
     \resumeExpSubheading
-      {\href{https://alfabank.ru/sme/rko/abm}{Альфа-Банк\ExternalLink}}{Москва, Россия}
-      {Team Lead / Senior iOS Developer в команде разработки приложения Альфа-Бизнес}{Февраль 2024 --- Настоящее время}
-      {\skill{UIKit} \skill{RxSwift} \skill{Kotlin Multiplatform} \skill{MVVM} \skill{Dependency Injection} \skill{People Management}}
+      {\href{https://alfabank.ru/sme/rko/abm}{Альфа-Банк\ExternalLink}}{Февраль 2024 --- Настоящее время}
+      {Team Lead / Senior iOS Developer в команде разработки приложения Альфа-Бизнес}{}
       \resumeDesc{
       \begin{itemize}
-          \item Руковожу командой 13 человек (2 iOS, 2 Android, web, 2 backend, дизайн, 2 QA, 2 analyst)
-          \item Выстроил процессы: планирование, оценка, ретро, поток от дизайна и документации до разработки
-          \item Внедрил инженерные практики: code review, CI/CD, модульная архитектура, мониторинг и алертинг
+          \item Руковожу кросс-функциональной командой из 13 человек (iOS, Android, web, backend, дизайн, QA, аналитика)
+          \item Выстроил и поддерживаю процессы: планирование, оценка, ретро, поток от дизайна и документации до разработки
           \item Снизил долю задач, не укладывающихся в план, с 20\% до 5\%, и сократил регрессионные баги на 50\%
           \item MAU приложения 800-900k; сервис внутри приложения: 5k DAU / 15k MAU
-          \item Веду техническую экспертизу по iOS и архитектуре, принимаю ключевые технические решения
-          \item В кросс-функциональной команде провожу 1-1, менторю и провожу собеседования
+          \item Веду техническую экспертизу по iOS и архитектуре, участвую в ключевых технических решениях
+          \item В кросс-функциональной команде провожу 1-1, менторю и участвую в собеседованиях
       \end{itemize}}
 
 % Yandex
     \resumeExpSubheading
-      {\href{https://yandex.ru/maps}{Яндекс Карты\ExternalLink}}{Москва, Россия}
-      {Middle iOS Developer в продуктовой команде разработки Яндекс Карт}{Август 2022 --- Февраль 2024}
-      {\skill{UIKit} \skill{RxSwift} \skill{Kotlin Multiplatform} \skill{MVVM} \skill{Dependency Injection} \skill{Project Management}}
+      {\href{https://yandex.ru/maps}{Яндекс Карты\ExternalLink}}{Август 2022 --- Февраль 2024}
+      {Middle iOS Developer в продуктовой команде разработки Яндекс Карт}{}
       \resumeDesc{
       \begin{itemize}
           \item Добавил сервис Музыки в Карты
@@ -222,9 +214,8 @@ iOS Team Lead с опытом 6+ лет\\
 
 % Tinkoff
     \resumeExpSubheading
-    {\href{https://www.tinkoff.ru}{Тинькофф\ExternalLink}}{Москва, Россия}
-    {iOS Developer Intern в команде Мобильного Банка в Тинькофф}{Февраль 2022 --- Май 2022}
-    {\skill{UIKit} \skill{Swinject} \skill{Unit/UI testing}}
+    {\href{https://www.tinkoff.ru}{Тинькофф\ExternalLink}}{Февраль 2022 --- Май 2022}
+    {iOS Developer Intern в команде Мобильного Банка в Тинькофф}{}
     \resumeDesc{
     \begin{itemize}
         \item Добавил модуль определителя звонков
@@ -232,29 +223,25 @@ iOS Team Lead с опытом 6+ лет\\
         \item Исправлял критические проблемы и уязвимости
     \end{itemize}}
 
-    \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
 
 %--------SKILLS------------
 \section{Навыки}
-    \resumeSubHeadingListStart
-    \item[] \begin{tabular}{ll}
+\noindent\begin{tabular}{ll}
 \textbf{Languages:} & \quad Swift, Kotlin\\
 \textbf{Frameworks:} & \quad SwiftUI, UIKit, RxSwift, Swinject, Needle\\
 \textbf{Tools:} & \quad Git, Docker, Prometheus, Charles\\
 \textbf{Leadership:} & \quad Team leadership, 1-1, Mentoring, Hiring, Process setup
 \end{tabular}
-\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Проекты}
-    \resumeSubHeadingListStart
-    \item[] \textbf{\MYhref{https://apps.apple.com/us/app/echo-your-inner-voice/id6755473107}{Echo --- Your Inner Voice \ExternalLink}} --- собственное iOS-приложение
-    \resumeDesc{
-    \begin{itemize}
-        \item Полный цикл: идея, дизайн, разработка, релиз и поддержка
-        \item Стек: SwiftUI, MVVM
-    \end{itemize}}
-\resumeSubHeadingListEnd
+\noindent\textbf{\MYhref{https://apps.apple.com/us/app/echo-your-inner-voice/id6755473107}{Echo --- Your Inner Voice \ExternalLink}} --- собственное iOS-приложение
+\resumeDesc{
+\begin{itemize}
+    \item Полный цикл: идея, дизайн, разработка, релиз и поддержка
+    \item Стек: SwiftUI, MVVM
+\end{itemize}}
 
 %-----------EDUCATION-----------------
 \section{Образование}
